@@ -1,6 +1,35 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
-h1 {
-font-family: 'Raleway', sans-serif;
+header {
+	display:flex;
+	flex-direction: row;
+}	
+nav > ul > li{
+	display: inline;
+	  }
 }
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.lienheader {
+	text-decoration: none;
+	color: black;
+}
+.lienheader:hover {
+	color: blue;
+  }

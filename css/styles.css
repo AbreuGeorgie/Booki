@@ -1,14 +1,21 @@
 body {
 	font-family: 'Raleway', sans-serif;
+  	max-width : 1400px;
 }
 header {
 	display:flex;
-	flex-direction: row;
+	justify-content: space-between;
+	flex-basis: 3;
 }	
+
 nav > ul > li{
-	display: inline;
+	display: inline-flex;
+
 	  }
-}
+#logo {
+	height: 19px;
+	width: 61.089656829833984px;
+	}
 h1 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -29,7 +36,134 @@ p {
 .lienheader {
 	text-decoration: none;
 	color: black;
+	
 }
 .lienheader:hover {
 	color: blue;
   }
+
+  /* :focus pour les étoiles de note */
+#loupe {
+	display: none;
+}
+#filterbar {
+	display: flex;
+}
+#filterbar > ul > li{
+	display: flex;
+	flex-direction: row; /* NE MARCHE PAS*/
+}
+
+
+                        /*hebergements*/
+#sectionhebergements {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+
+}
+
+
+
+                        /*card*/
+#hebergements {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+ 	height: 626px;
+	width: 65%;
+	border-radius: 20px;
+	background-color: #F2F2F2;
+}
+
+#differentshebergement {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card > img {
+	border-radius: 20px 20px 0px 0px;
+	border: 5px solid #FFFFFF;
+	height: 124px;
+	width: 246px;
+}
+
+.card {
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	object-fit: cover;
+}
+
+h3 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.prixnuit {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+
+}
+
+
+									/* cardpopulaire*/
+#populaire {
+	display: flex;
+	flex-direction: column;
+	background-color: #F2F2F2;
+	height: 625px;
+	width: 30%;
+	border-radius: 20px;	
+}
+/* je n'arrive pas a mettre les cardpopulaire en colonne*/
+#hebergementspopulaires {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+#titreicone {
+	display: flex;
+	flex-direction: row;
+}
+.cardpopulaire > img {
+	border-radius: 20px 0px 0px 20px;
+	border: 5px solid #FFFFFF;
+	height: 144px;
+	width: 137px;
+	left: 0px;
+	top: 0px;
+}
+.cardpopulaire {
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	display: flex;
+	object-fit: cover;
+}
+.textcardpopulaire {
+	display: flex;
+	flex-direction: column;
+}
+
+/*activites a marseille*/
+#sectionactivites {
+	display: none;
+}
+footer {
+	display: none;
+}

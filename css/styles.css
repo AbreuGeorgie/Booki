@@ -9,12 +9,13 @@ header {
 }	
 
 nav > ul > li{
-	display: inline-flex;
+	display: inline;
 
 	  }
 #logo {
 	height: 19px;
 	width: 61.089656829833984px;
+	margin: 15px;
 	}
 h1 {
 	font-family: 'Raleway', sans-serif;
@@ -50,8 +51,7 @@ p {
 	display: flex;
 }
 #filterbar > ul > li{
-	display: flex;
-	flex-direction: row; /* NE MARCHE PAS*/
+	display: inline /* NE MARCHE PAS*/
 }
 
 
@@ -125,6 +125,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	background-color: #F2F2F2;
+	align-self: stretch;
 	height: 625px;
 	width: 30%;
 	border-radius: 20px;	
@@ -133,6 +134,7 @@ h3 {
 #hebergementspopulaires {
     display: flex;
 	flex-direction: column;
+	height: 90%;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
@@ -162,8 +164,8 @@ h3 {
 
 /*activites a marseille*/
 #sectionactivites {
-	display: none;
+	display: 
 }
 footer {
-	display: none;
+	display: 
 }

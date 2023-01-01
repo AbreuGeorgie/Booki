@@ -120,19 +120,19 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 	background-color: #deebff;
 }
 .filter > i {       
+
 	color: #0065FC;
 	padding: 5px;
 	margin-right: 5px;
 }
 */ 
 
-#infos > p > i {
-	filter: opacity(100%);
+#infos > i {
 	color: #0065FC;
-	padding: 10px;
-	border: #0065FC solid 1px;
-	border-radius: 10px;
-}
+	padding: 3px 8px;
+    border: #D9D9D9 solid 1px;
+    border-radius: 20px;
+} /* je ne sais pas pourquoi ça ne fait rien alors que dans la page ça modifie bien*/
 
 
                         /*hebergements*/
@@ -156,12 +156,15 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 	border-radius: 20px;
 	background-color: #F2F2F2;
 }
-
+#hebergements > h2 {
+	margin: 2em;
+}
 #differentshebergement {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
     justify-content: space-around;
+	margin: 0em 2em;
 
 }
 

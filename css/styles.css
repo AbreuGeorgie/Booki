@@ -1,21 +1,38 @@
 body {
 	font-family: 'Raleway', sans-serif;
   	max-width : 1400px;
+	margin: 0px 50px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+nav{
+	height: 100%;
+    display: flex;
+    align-items: center;
 }
 header {
 	display:flex;
 	justify-content: space-between;
+	align-items: center;
 	flex-basis: 3;
+	height: 7em;
 }	
 
-nav > ul > li{
-	display: inline;
+.lienheader{
+    align-items: center;
+    display: flex;
+	padding: 2.6em;
+}
+.lienheader:hover {
+	border-top: #0065FC solid 0.3em;
+	color: #0065FC;
+  }
 
-	  }
 #logo {
 	height: 19px;
 	width: 61.089656829833984px;
-	margin: 15px;
 	}
 h1 {
 	font-family: 'Raleway', sans-serif;
@@ -34,11 +51,7 @@ p {
 	letter-spacing: 0em;
 	text-align: left;
 }
-.lienheader {
-	text-decoration: none;
-	color: black;
-	
-}
+
 .lienheader:hover {
 	color: blue;
   }
@@ -164,8 +177,8 @@ h3 {
 
 /*activites a marseille*/
 #sectionactivites {
-	display: 
+	display: none;
 }
 footer {
-	display: 
+	display: none;
 }

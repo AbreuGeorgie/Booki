@@ -69,12 +69,24 @@ form {
     background-color: #d9d9d9;
 	border-radius: 10px 0px 0px 10px;
 }
-#ville {
-	font-weight: bold;
+#ville{
 	border: none;
-
+	width: 15em;
+}
+#ville::placeholder{
+	color: #000000;
+	font-weight: bold;
 }
 
+#recherche {
+	padding: 1.3em;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway';
+	font-weight: 700;
+}
 .lienheader:hover {
 	color: blue;
   }

@@ -36,27 +36,37 @@
         <div id="trouverhebergement">
             <h2>Trouver votre hébergements pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
-                <form method="get" action="">
-                    <div id="villesearch">
-                        <label for="ville"><i class="fa-solid fa-location-dot"></i></label>
-                        <input type="search" id="ville" name="ville" placeholder="Marseille, France" size="18px">
-                    </div>
-                    <div class="rechercheloupe">
-                        <button id="recherche">Rechercher</button>
-                        <button id="loupe"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </form>
-            </div>
+            <form method="get" action="">
+                <div id="villesearch">
+                    <label for="ville">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </label>
+                    <input type="search" id="ville" name="ville" placeholder="Marseille, France" size="18px">
+                </div>
+                <div class="rechercheloupe">
+                    <button id="recherche">Rechercher</button>
+                    <button id="loupe">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
             <div id="filterbar">
-                <p>Filtres</p>
-                <ul>
-                    <!-- j'ai fait une liste pour les filtres mais peut etre pas le plus adapté -->
-                    <li><i class="fa-solid fa-money-bill-wave"></i>Economique</li>
-                    <li><i class="fa-solid fa-person"></i>Familial</li>
-                    <li><i class="fa-solid fa-heart"></i>Romantique</li>
-                    <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
-                </ul>
+                <div>Filtres</div>
+                <div class="filter"><i class="fa-solid fa-money-bill-wave"></i>
+                    <div>Economique</div>
+                </div>
+                <div class="filter"><i class="fa-solid fa-person"></i>
+                    <div>Familial</div>
+                </div>
+                <div class="filter"><i class="fa-solid fa-heart"></i>
+                    <div>Romantique</div>
+                </div>
+                <div class="filter"><i class="fa-solid fa-dog"></i>
+                    <div>Animaux autorisés</div>
+                </div>
             </div>
+        <div id="infos">    
             <p><i class="fa-solid fa-info"></i>Plus de 500 logements disponibles dans cette ville</p>
         </div>
         <section id="sectionhebergements">

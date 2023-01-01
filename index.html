@@ -8,10 +8,10 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ab6bfbc949.js" crossorigin="anonymous"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
     </style>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -34,25 +34,29 @@
     </header>
     <main>
         <div id="trouverhebergement">
-            <h2>Trouver votre hébergements pour des vacances</h2>
+            <h2>Trouver votre hébergements pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
-            <div id="rechercher"><i class="fa-solid fa-location-dot"></i>
-                <input type="search" id="ville" name="ville" placeholder="Marseille">
-                <button id="recherche">Rechercher</button>
-                <button id="loupe"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <form method="get" action="">
+                    <div>
+                        <label for="ville"><i class="fa-solid fa-location-dot"></i></label>
+                        <input type="search" id="ville" name="ville" placeholder="Marseille, France" size="18px">
+                    </div>
+                    <button id="recherche">Rechercher</button>
+                    <button id="loupe"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
             </div>
+            <div id="filterbar">
+                <p>Filtres</p>
+                <ul>
+                    <!-- j'ai fait une liste pour les filtres mais peut etre pas le plus adapté -->
+                    <li><i class="fa-solid fa-money-bill-wave"></i>Economique</li>
+                    <li><i class="fa-solid fa-person"></i>Familial</li>
+                    <li><i class="fa-solid fa-heart"></i>Romantique</li>
+                    <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+                </ul>
+            </div>
+            <p><i class="fa-solid fa-info"></i>Plus de 500 logements disponibles dans cette ville</p>
         </div>
-        <div id="filterbar">
-            <p>Filtres</p>
-            <ul>
-                <!-- j'ai fait une liste pour les filtres mais peut etre pas le plus adapté -->
-                <li><i class="fa-solid fa-money-bill-wave"></i>Economique</li>
-                <li><i class="fa-solid fa-person"></i>Familial</li>
-                <li><i class="fa-solid fa-heart"></i>Romantique</li>
-                <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
-            </ul>
-        </div>
-        <p><i class="fa-solid fa-info"></i>Plus de 500 logements disponibles dans cette ville</p>
         <section id="sectionhebergements">
             <!-- Rendre titre ou image cliquable vers un lien pour toute la section et la section suivante-->
             <!-- Comment faire pour les notes sans js? -->

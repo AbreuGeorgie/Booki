@@ -59,7 +59,11 @@ form {
 	align-items: center;
 }
 
+#villesearch {
 
+    border: #d9d9d9 solid 0.1em;
+    border-radius: 10px 0 0 10px;
+}
 .fa-solid.fa-location-dot {
 	padding: 1em;
     background-color: #d9d9d9;
@@ -67,6 +71,7 @@ form {
 }
 #ville {
 	font-weight: bold;
+	border: none;
 
 }
 

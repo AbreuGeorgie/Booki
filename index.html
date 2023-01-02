@@ -28,18 +28,18 @@
             <div class="lienheader">
                 <a  href="#activites">Activités</a>
             </div> -->
-            <a  class="lienheader" href="#hebergements">Hébergements</a>
-            <a  class="lienheader" href="#activites">Activités</a>
+            <a  class="lien-nav" href="#hebergements">Hébergements</a>
+            <a  class="lien-nav" href="#activites">Activités</a>
         </nav>
     </header>
     <main>
-        <div id="trouverhebergement">
+        <div id="trouver-hebergement">
             <h2>Trouver votre hébergements pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
             <form method="get" action="">
-                <div id="villesearch">
+                <div id="ville-recherche">
                     <label for="ville">
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i class="logo-info fa-solid fa-location-dot"></i>
                     </label>
                     <input type="search" id="ville" name="ville" placeholder="Marseille, France" size="18px">
                 </div>
@@ -51,94 +51,88 @@
                 </div>
             </form>
         </div>
-            <div id="filterbar">
+            <div id="filtre-barre">
                 <div>Filtres</div>
-                <div class="filter"><i class="fa-solid fa-money-bill-wave"></i>
+                <div class="filtre"><i class="fa-solid fa-money-bill-wave"></i>
                     <div>Economique</div>
                 </div>
-                <div class="filter"><i class="fa-solid fa-person"></i>
+                <div class="filtre"><i class="fa-solid fa-person"></i>
                     <div>Familial</div>
                 </div>
-                <div class="filter"><i class="fa-solid fa-heart"></i>
+                <div class="filtre"><i class="fa-solid fa-heart"></i>
                     <div>Romantique</div>
                 </div>
-                <div class="filter"><i class="fa-solid fa-dog"></i>
+                <div class="filtre"><i class="fa-solid fa-dog"></i>
                     <div>Animaux autorisés</div>
                 </div>
             </div>
         <div id="infos">    
-            <i class="fa-solid fa-info"></i>Plus de 500 logements disponibles dans cette ville
+            <i class="fa-solid fa-info"></i> &ensp; Plus de 500 logements disponibles dans cette ville
         </div>
-        <section id="sectionhebergements">
+        <section id="section-hebergements">
             <!-- Rendre titre ou image cliquable vers un lien pour toute la section et la section suivante-->
             <!-- Comment faire pour les notes sans js? -->
             <div id="hebergements">
                 <h2>Hébergements à Marseille</h2>
-                <div id=differentshebergement>
-                    <div class="card">
+                <div id=differents-hebergements>
+                    <div class="carte">
                         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                             alt="photo Auberge La Canebiere">
-                        <h3>Auberge La Canebière</h3>
-                        <p class="prixnuit">Nuit à partir de 25€</p>
-                        <div class="etoiles">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class= texte-carte>
+                            <h3>Auberge La Canebière</h3>
+                            <p class="prixnuit">Nuit à partir de 25€</p>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="carte">
                         <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                             alt="photo Hotel du port">
-                        <h3>Hôtel du port</h3>
-                        <p class="prixnuit">Nuit à partir de 52€</p>
-                        <div class="etoiles">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class= texte-carte>
+                            <h3>Hôtel du port</h3>
+                            <p class="prixnuit">Nuit à partir de 52€</p>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="carte">
                         <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                             alt="photo Hotel Les mouettes">
-                        <h3>Hôtel Les mouettes</h3>
-                        <p class="prixnuit">Nuit à partir de 76€</p>
-                        <div class="etoiles">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class= texte-carte>
+                            <h3>Hôtel Les mouettes</h3>
+                            <p class="prixnuit">Nuit à partir de 76€</p>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="carte">
                         <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="photo Hotel de la mer">
-                        <h3>Hôtel de la mer</h3>
-                        <p class="prixnuit">Nuit à partir de 46€</p>
-                        <div class="etoiles">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class= texte-carte>
+                            <h3>Hôtel de la mer</h3>
+                            <p class="prixnuit">Nuit à partir de 46€</p>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="carte">
                         <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                             alt="photo Auberge le Panier">
-                        <h3>Auberge Le Panier</h3>
-                        <p class="prixnuit">Nuit à partir de 23€</p>
-                        <div class="etoiles">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class= texte-carte>
+                            <h3>Auberge Le Panier</h3>
+                            <p class="prixnuit">Nuit à partir de 23€</p>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="carte">
                         <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                             alt="photo Hotel chez Amina">
-                        <h3>Hôtel chez Amina</h3>
-                        <p class="prixnuit">Nuit à partir de 96€</p>
-                        <div class="etoiles">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                class="fa-solid fa-star"></i>
+                        <div class= texte-carte>
+                            <h3>Hôtel chez Amina</h3>
+                            <p class="prixnuit">Nuit à partir de 96€</p>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
                 </div>
@@ -156,11 +150,8 @@
                         <div class="textcardpopulaire">
                             <h3>Hôtel Le soleil du matin</h3>
                             <p class="prixnuit">Nuit à partir de 128€</p>
-                            <div class="etoiles">
-                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i>
-                            </div>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
                     <div class=cardpopulaire>
@@ -169,11 +160,8 @@
                         <div class="textcardpopulaire">
                             <h3>Chambres d'hôtes Au coeur de l'eau</h3>
                             <p class="prixnuit">Nuit à partir de 71€</p>
-                            <div class="etoiles">
-                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i>
-                            </div>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
                     <div class=cardpopulaire>
@@ -182,11 +170,8 @@
                         <div class="textcardpopulaire">
                             <h3>Hôtel Bleu et Blanc</h3>
                             <p class="prixnuit">Nuit à partir de 68€</p>
-                            <div class="etoiles">
-                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i>
-                            </div>
+                            <p class="icone-etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
                         </div>
                     </div>
                 </div>

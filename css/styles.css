@@ -81,7 +81,10 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 
 #ville{
 	border: none;
-	width: 15em;
+	width: 10em;
+	line-height: 38px;
+	font-size: 18px;
+	margin: 0 1em;
 }
 
 #ville::placeholder{
@@ -98,7 +101,6 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
     font-family: 'Raleway';
 	font-weight: 700;
 }
-
  
 #loupe {
 	display: none;
@@ -111,6 +113,7 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 	font-weight: 700;
 	align-items: center;
 }
+
 .filtre{
 	display: flex;
 	margin: 15px;
@@ -123,6 +126,7 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 .filtre:hover {
 	background-color: #deebff;
 }
+
 .filtre > i {       
 
 	color: #0065FC;
@@ -148,7 +152,7 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 #hebergements {
 	display: flex;
 	flex-direction: column;
- 	height: 626px;
+ 	height: 650px;
 	width: 65%;
 	border-radius: 20px;
 	background-color: #F2F2F2;
@@ -168,31 +172,27 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 
 #differents-hebergements {
     display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
     justify-content: space-between;
-	align-content: space-between;
-	margin: 0em 2em;
-}
-
-h3 {
-	font-size: 16px;
-	line-height: 0px;
+	align-content: space-between; /* ne marche pas et je ne trouve pas pk*/
+	margin: 0 2em;
 }
 
  .carte {
+	height: 220px;
+	width: 31%;
 	background-color: #FFFFFF;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	object-fit: cover;
 }
 
  .carte > img {
 	border-radius: 20px 20px 0px 0px;
 	border: 5px solid #FFFFFF;
 	height: 124px;
-	width: 246px;
+	width: 95%;
+	margin: initial auto;
 }
 
  .texte-carte {
@@ -201,20 +201,36 @@ h3 {
     margin-left: 1em;
  }
 
- .prixnuit {
-	font-size: 14px;
+h3 {
+	font-size: 15px;
+	line-height: 0px;
+}
+
+.prixnuit {
+	font-size: 15px;
 	line-height: 0px;
 	padding: 8px 0;
     margin: 0;
 }
 
- .icone-etoile {
+.icone-etoile {
 	font-size: 12px;
 	margin: 5px 0;
 	color: #0065FC;
- } /* :focus pour les étoiles de note */
+ } 
+ 
+.etoile-grise {
+	color: #F2F2F2;
+ }
+ /* :focus pour les étoiles de note */
 
-
+.afficher-plus {
+	margin: 2.3em;
+}
+.afficher-plus > a {
+	font-size: 18px;
+	font-weight: 700;
+}
 /* cardpopulaire*/
 
 #populaire {

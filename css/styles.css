@@ -356,3 +356,22 @@ footer h4 {
 	padding: 0;
 	line-height: 2em;
 }
+
+
+
+@media screen and (max-width: 767px){
+	#loupe {
+		display: inline;
+		padding: 1.3em;
+		border-radius: 0 10px 10px 0;
+		border: 0;
+		background-color: #0065FC;
+		color: white;
+		font-family: 'Raleway';
+		font-weight: 700;
+	}
+	#recherche {
+		display: none;
+	}
+}
+

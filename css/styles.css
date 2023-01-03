@@ -149,26 +149,26 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 
 /*hebergements*/
 
-#hebergements {
-	display: flex;
-	flex-direction: column;
- 	height: 650px;
-	width: 65%;
-	border-radius: 20px;
-	background-color: #F2F2F2;
-}
-
-#hebergements > h2 {
-	margin: 2em;
-}
-
 #section-hebergements {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
-/*card*/
+#hebergements {
+	display: flex;
+	flex-direction: column;
+ 	height: 675px;
+	width: 65%;
+	border-radius: 20px;
+	background-color: #F2F2F2;
+}
+
+#hebergements > h2 {
+	margin: 1.7em 2em;
+}
+
+/*cartes*/
 
 #differents-hebergements {
     display: flex;
@@ -185,6 +185,7 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0 8px 16px 0 #D9D9D9;
 }
 
  .carte > img {
@@ -192,12 +193,11 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 	border: 5px solid #FFFFFF;
 	height: 124px;
 	width: 95%;
-	margin: initial auto;
+	margin: 0 auto;
+	object-fit: cover;
 }
 
  .texte-carte {
-	display: flex;
-    flex-direction: column;
     margin-left: 1em;
  }
 
@@ -206,11 +206,11 @@ h3 {
 	line-height: 0px;
 }
 
-.prixnuit {
+.prix-nuit {
 	font-size: 15px;
 	line-height: 0px;
-	padding: 8px 0;
-    margin: 0;
+    padding: 10px 0;
+    margin: 8px 0;
 }
 
 .icone-etoile {
@@ -225,53 +225,76 @@ h3 {
  /* :focus pour les étoiles de note */
 
 .afficher-plus {
-	margin: 2.3em;
+	margin: 3em 2.3em;
 }
 .afficher-plus > a {
 	font-size: 18px;
 	font-weight: 700;
 }
-/* cardpopulaire*/
+/* populaire*/
 
 #populaire {
 	display: flex;
 	flex-direction: column;
 	background-color: #F2F2F2;
 	align-self: stretch;
-	height: 625px;
+	height: 675px;
 	width: 30%;
-	border-radius: 20px;	
+	border-radius: 20px;
 }
-/* je n'arrive pas a mettre les cardpopulaire en colonne*/
-#hebergementspopulaires {
+
+#titre-icone {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
+}
+
+#titre-icone > h2 {
+	margin: 1.7em 2em;
+}
+
+#icone-populaire {
+	color: #0065FC;
+	font-size: 18px;
+	margin-right: 2em;
+}
+
+#hebergements-populaires {
     display: flex;
 	flex-direction: column;
 	height: 90%;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 0 2em 1.7em 2em;
+}
 
-}
-#titreicone {
+.carte-populaire {
+	background-color: #FFFFFF;
+	border-radius: 20px;
 	display: flex;
-	flex-direction: row;
+	
+	box-shadow: 0 8px 16px 0 #D9D9D9;
 }
-.cardpopulaire > img {
+
+.carte-populaire > img {
 	border-radius: 20px 0px 0px 20px;
 	border: 5px solid #FFFFFF;
 	height: 144px;
 	width: 137px;
-	left: 0px;
-	top: 0px;
-}
-.cardpopulaire {
-	background-color: #FFFFFF;
-	border-radius: 20px;
-	display: flex;
 	object-fit: cover;
 }
-.textcardpopulaire {
+
+.texte-carte-populaire {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+}
+.nom-hotel {
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+	justify-content: space-between;
 }
 
 /*activites a marseille*/

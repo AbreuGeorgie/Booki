@@ -60,10 +60,8 @@ form {
 	display: flex;
 	align-items: center;
 }
-/* Attention à ne pas appliquer une bordure sur l’intégralité du champ de
-recherche, pour que le visuel corresponde à la maquette.
-C'est écrit ça dans le guide mais est ce que ça veut dire que c'est le bouton bleu qui n'est pas entouré en gris? 
-Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
+
+/*Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 #ville-recherche {
     border: #d9d9d9 solid 0.1em;
     border-radius: 10px 0 0 10px;
@@ -172,13 +170,6 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 	background-color: #F2F2F2;
 }
 
-/* #tous-les-hebergements {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: space-between;
-*/
-
 #hebergements > h2 {
 	margin: 1.7em 2em;
 }
@@ -189,7 +180,7 @@ Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
-	align-content: space-between; /* ne marche pas et je ne trouve pas pk*/
+	align-content: space-between;
 	margin: 0 2em;
 	height: 475px;
 }
@@ -241,7 +232,6 @@ h3 {
 .etoile-grise {
 	color: #F2F2F2;
  }
- /* :focus pour les étoiles de note */
 
 .afficher-plus {
 	margin: 3em 2.3em;
@@ -436,16 +426,6 @@ footer h4 {
 
 	}
 }
-
-/*
-#hebergements-populaires {
-    display: flex;
-	flex-direction: column;
-	height: 90%;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin: 0 2em 1.7em 2em;
-}*/
 
 @media screen and (max-width: 767px){
 

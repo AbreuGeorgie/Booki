@@ -294,6 +294,7 @@ h3 {
 	box-shadow: 0 8px 16px 0 #D9D9D9;
 	min-width: 292px;
 	max-height: 154px;
+	margin-left: 1em;
 }
 
 .carte-populaire > img {
@@ -467,6 +468,8 @@ footer h4 {
 		width: 50%;
 		justify-content: center;
 		border-bottom: #D9D9D9 solid 0.2em;
+		padding-bottom: 1.3em;
+		margin-top: 1em;
 	}
 
 	nav :active {
@@ -498,7 +501,7 @@ footer h4 {
 		align-items: center;
 		flex-direction: column;
 	}
-	
+
 	#filtre-barre>*:first-child {
 		align-self: stretch;
 		margin: 0 1em;
@@ -534,28 +537,83 @@ footer h4 {
 
 	#populaire {
 		width: 100%;
-		align-self: stretch;
 		border-radius: 0px;
 		}
 
 	#hebergements-populaires {
-		max-width: 242px;
+		min-width: 355px;
+		margin: 0;
+		justify-content: space-evenly;
+		align-content: center;
 	}
 
 	#titre-icone > h2 {
 		margin: 1.7em 5%;
 	}
 	.carte-populaire {
-	width: 95%;
-    margin: 0 3%;	
+		margin: 0 7%;
 	}
 	
+	#differents-hebergements {
+		width: 100%;
+		margin: 0;
+		height: 1420px;
+		justify-content: center;
+	
+	}
 	#hebergements {
+		min-width: 335px;
 		width: 100%;
 		align-self: stretch;
 		border-radius: 0px;
 		background-color: white;
+		margin: 0;
+		height: 1520px;
 	}
 
+	#hebergements > h2 {
+		max-width: 160px;
+	}
 
+	.carte {
+		width: 100%;
+		margin: 0 7%;
+		min-width: 292px;
+		max-width: 350px;
+	}
+
+	.afficher-plus {
+		display: none;
+	}
+	#section-activites {
+		display: flex;
+		flex-direction: column;
+	    height: 1040px;
+    	margin: 2em 7%;
+	}
+
+	#activites {
+		width: 120px;
+	}
+
+	#differentes-activites {
+		flex-direction: column;
+		width: 100%;
+		justify-content: space-around;
+		height: inherit;
+		align-content: center;
+	}
+	.carte-activite{
+		height: 220px;
+		width: 100%;
+		min-width: 292px;
+		max-width: 350px;
+	}
+
+	.img-activite {
+		height: 70%;
+	}
 }
+
+
+

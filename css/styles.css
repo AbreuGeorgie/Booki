@@ -30,7 +30,7 @@ nav{
 	padding: 2.3em;
 }
 
-#logo {
+h1 {
 	height: 19px;
 	width: 61.089656829833984px;
 }
@@ -59,18 +59,30 @@ p {
 form {
 	display: flex;
 	align-items: center;
+	height: 3em;
 }
 
 #ville-recherche {
     border: #d9d9d9 solid 0.1em;
     border-radius: 10px 0 0 10px;
+	display: flex;
+    align-items: center;
+    height: 100%;
+    width: 18em;
 }
 
-.logo-info {
-	padding: 1em;
-    background-color: #d9d9d9;
+#label-logo-position {
+	background-color: #d9d9d9;
 	border-radius: 10px 0px 0px 10px;
-	font-weight: bold;
+	border: #D9D9D9 solid 1px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 17%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	left: -2px;
 }
 
 #ville{
@@ -142,9 +154,13 @@ form {
 
 #logo-i {
 	color: #0065FC;
-	padding: 3px 8px;
     border: #D9D9D9 solid 1px;
-    border-radius: 20px;
+	border-radius: 15px;
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 #texte-i {

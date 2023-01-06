@@ -61,7 +61,6 @@ form {
 	align-items: center;
 }
 
-/*Il y a un decalage entre le contour gris et le fond gris a gauche de l'icone */
 #ville-recherche {
     border: #d9d9d9 solid 0.1em;
     border-radius: 10px 0 0 10px;
@@ -240,6 +239,7 @@ h3 {
 	font-size: 18px;
 	font-weight: 700;
 }
+
 /* populaire*/
 
 #populaire {
@@ -302,6 +302,13 @@ h3 {
 	width: 66%;
 }
 
+.prix-etoile {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 72%;
+}
+
 #section-activites {
 	margin: 5em 2em 0 2em;
 }
@@ -329,7 +336,7 @@ h3 {
 
 .img-activite {
 	border-radius: 20px 20px 0px 0px;
-	height: 95%;
+	height: 85%;
 	width: 100%;
 	margin: 0 auto;
 	object-fit: cover;

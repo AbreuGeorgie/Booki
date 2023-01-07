@@ -134,7 +134,7 @@ form {
 	cursor: pointer;
 }
 
-.filtre > i {       
+.filtre i {       
 
 	color: #0065FC;
 	padding: 5px;
@@ -184,7 +184,7 @@ form {
 	background-color: #F2F2F2;
 }
 
-#hebergements > h2 {
+#hebergements h2 {
 	margin: 1.7em 2em 1em;
 }
 
@@ -258,7 +258,7 @@ h3 {
 .afficher-plus {
 	margin: 3em 2.3em;
 }
-.afficher-plus > a {
+.afficher-plus a {
 	font-size: 18px;
 	font-weight: 700;
 }
@@ -282,7 +282,7 @@ h3 {
     justify-content: space-between;
 }
 
-#titre-icone > h2 {
+#titre-icone h2 {
 	margin: 1.7em 2em 1em;
 }
 
@@ -320,7 +320,7 @@ h3 {
 	height: 100%;
 }
 
-.carte-populaire > img {
+.carte-populaire img {
     border-radius: 20px 0px 0px 20px;
     height: 100%;
     width: 100%;
@@ -347,6 +347,7 @@ h3 {
 
 #section-activites {
 	margin-top: 4em;
+	height: 31em;
 }
 #activites {
 	margin-bottom: 1.2em;
@@ -383,9 +384,14 @@ h3 {
 }
 
 #section-activites h4 {
-	margin-left: 2em;
-	font-size: 16px;
-	height: 5%;
+    padding-left: 1em;
+    font-size: 16px;
+    height: 15%;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 /*footer*/
@@ -395,7 +401,7 @@ footer {
 	justify-content: space-between;
 	background-color: #F2F2F2;
     height: max-content;
-    margin: 4em 2em 0em 2em;
+	margin: 4em 0;
     padding: 0 18.5em 0 0;
 }
 
@@ -429,16 +435,21 @@ footer h4 {
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px){
+	.lien-nav:active {
+		border-top: #0065FC solid 0.2em;
+		color: #0065FC;
+	}
+
 	#section-hebergements {
 		flex-direction: column;
-		height: 1079px;
+		height: 63em;
 	}
 	#hebergements {
 		width: 100%;
 	}
 	#populaire {
 		width: 100%;
-		height: 300px;
+		height: 18em
 	}
 	#hebergements-populaires {
 		flex-direction: row;
@@ -477,8 +488,16 @@ footer h4 {
     	flex-direction: column;
 	}
 
-	#section-activites > h4 {
-		margin: 0em;
+	#section-activites {
+		height: 22em;
+	}
+
+	#section-activites h4 {
+		font-size: 16px;
+		margin: 0;
+		padding-left: 1em;
+		align-items: center;
+		height: 20%;
 	}
 
 	.img-activite {
@@ -543,7 +562,7 @@ footer h4 {
 		margin: 4.5em 1.5em 2.5em;
 	}
 
-	#trouver-hebergement > p {
+	#trouver-hebergement p {
 		margin-bottom: 35px;
 	}
 
@@ -586,7 +605,7 @@ footer h4 {
 		margin: 10px;
 	}
 
-	.filtre > i {
+	.filtre i {
 		margin-right: 0px;
 	}
 
@@ -617,7 +636,7 @@ footer h4 {
 		justify-content: space-between;
 		width: 90%;
 	}
-	#titre-icone > h2 {
+	#titre-icone h2 {
 		margin: 0.7em 1em
 	}
 
@@ -650,7 +669,7 @@ footer h4 {
 		height: 95em;
 	}
 
-	#hebergements > h2 {
+	#hebergements h2 {
 		max-width: 160px;
 	}
 

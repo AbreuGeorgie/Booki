@@ -651,6 +651,11 @@ footer h4 {
 		align-content: center;
 		height: 100%;
 	}
+
+	.carte-populaire-article {
+		min-width: 292px;
+		max-width: 350px;
+	}
 	
 	#differents-hebergements {
 		width: 100%;

@@ -75,16 +75,15 @@ form {
     display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 17%;
+	width: 20%;
 	height: 100%;
 	position: relative;
-	top: 0px;
 	left: -2px;
 }
 
 #ville{
 	border: none;
-	width: 11em;
+	width: 80%;
 	line-height: 38px;
 	font-size: 18px;
 	margin: 0 1em;
@@ -133,7 +132,6 @@ button {
 
 #boutons-filtre {
 	display: flex;
-	flex-direction: row;
 	font-size: 17px;
 	cursor: pointer;
 }
@@ -444,6 +442,10 @@ footer h4 {
 		color: #0065FC;
 	}
 
+	.filtre:active {
+		background-color: #deebff;
+	}
+
 	#section-hebergements {
 		flex-direction: column;
 		height: 63em;
@@ -604,6 +606,10 @@ footer h4 {
 
 	.filtre i {
 		margin-right: 0px;
+	}
+
+	.filtre:active {
+		background-color: #deebff;
 	}
 
 	#texte-i {

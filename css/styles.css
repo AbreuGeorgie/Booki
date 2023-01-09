@@ -42,7 +42,7 @@ h1 {
 	margin: 1em 0;
 }
 
-h2 {
+h2 {                                                                                 
 	font-size: 22px;
 	font-weight: 700;
 	text-align: left;
@@ -95,16 +95,20 @@ form {
 	font-weight: bold;
 }
 
-#recherche {
-	padding: 1.3em;
+.recherche-loupe {
+	padding: 1em;
     border-radius: 0 10px 10px 0;
-    border: 0;
     background-color: #0065FC;
-    color: white;
-    font-family: 'Raleway';
+}
+
+button {
+	border: 0;
+    background-color: #0065FC;
+	color: white;
+	font-family: 'Raleway';
 	font-weight: 700;
 }
- 
+
 #loupe {
 	display: none;
 }
@@ -566,19 +570,12 @@ footer h4 {
 		margin-bottom: 35px;
 	}
 
-	#loupe {
-		display: inline;
-		padding: 1.3em;
-		border-radius: 0 10px 10px 0;
-		border: 0;
-		background-color: #0065FC;
-		color: white;
-		font-family: 'Raleway';
-		font-weight: 700;
-	}
-
 	#recherche {
 		display: none;
+	}
+
+	#loupe {
+		display: inline;
 	}
 
 	#filtre-barre{

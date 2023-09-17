@@ -1,4 +1,4 @@
-![Banner](/Images/readme/readme-banner.webp)
+![Banner](/images/readme/readme-banner.webp)
 
 ## Technologies
 
@@ -28,7 +28,7 @@ Aucun framework CSS (type BootStrap ou Tailwind CSS) ou préprocesseur CSS (type
 
 ## Note de synthèse
 
-![specifications](/Images/readme/readme_specifications_booki.webp)
+![specifications](/images/readme/readme_specifications_booki.webp)
 
 ## Auteur :
 
